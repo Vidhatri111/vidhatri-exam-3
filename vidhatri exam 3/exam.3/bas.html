@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Party</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #000;
+            color: #a9a5a5;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header .nav a {
+            color: #dddddd;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .main {
+            text-align: center;
+            background: linear-gradient(to bottom, #696969, #1a1a1a);
+            color: #3d36a3;
+            height: 798px;
+            padding: 50px 20px;
+            overflow: hidden;
+        }
+
+        .main .event-date {
+            font-size: 18px;
+            margin-top: 150px;
+        }
+
+        .main .event-title {
+            font-size: 48px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin-bottom: 50px;
+        }
+
+        .main .event-button {
+            background-color: #0004ff;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .main .event-button:hover {
+            background-color: #0000cc;
+        }
+
+        .main .event-image {
+            margin-top: 208px;
+            z-index: 100;
+            margin-right: ;
+        }
+
+        .main .event-image img {
+            width: 100%;
+            max-width: 357px;
+        }
+
+        .scr {
+            width: 800px;
+            background-color: yellow;
+            height: 800px;
+            position: absolute;
+            top: 60px;
+            border-radius: 100%;
+            left: 529px;
+            z-index: 1;
+        }
+
+        .boder {
+            width: 1770px;
+            bottom: -111px;
+            position: absolute;
+            background-color: rgb(53, 141, 137);
+            height: 16%;
+            z-index: 100;
+        }
+
+        .img {
+            z-index: 100;
+        }
+        
+        
+        @keyframes mymove {
+  0%   {top: 0px;}
+  25%  {top: 200px;}
+  50%  {top: 100px;}
+  75%  {top: 200px;}
+  100% {top: 0px;}
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">Logo</div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">Events</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="top 1">
+            <img src="sky-removebg-preview.png" class="one">
+            <img src="sky-removebg-preview.png" class="two">
+        </div>
+        
+
+        <div class="scr">
+            <div class="event-date">August 25 · 8:00 AM</div>
+            <div class="event-title">SUMMER PARTY</div>
+            <a href="#" class="event-button">Book Now</a>
+            <div class="event-image">
+                <img src="bus (1).png" class="" alt="Event Image">
+            </div>
+        </div>
+        <div class="boder"></div>
+    </div>
+</body>
+
+</html>
